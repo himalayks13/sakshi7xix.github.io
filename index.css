@@ -342,9 +342,16 @@ shape-outside: margin-box;
   background-color: white;
   /* box-shadow: 8px 8px #D5D4D4 ; */
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  
 
 
 }
+@media(max-width:768px) {
+    .card-1 {
+       width: 400px;
+
+    }
+  }
 
 .stext{
   font-family: 'poppins';
@@ -710,6 +717,7 @@ background-size: cover;
 
 .faqrow{
   background-color: white;
+  margin-left: 0;
 }
 
 /* .accordion{
@@ -817,12 +825,17 @@ background-size: cover;
     /* min-height: 50vh; */
 }
 
-@media(max-width:768px) {
+/* @media(max-width:768px) {
   .foot{
     padding-left: 1rem;
     padding-right: 1rem;
-  }
+  } */
+@media(max-width:768px) {
+    .foottxt {
+       margin-left: 1rem;
 
+    }
+  }
 
 
 footer {

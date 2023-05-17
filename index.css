@@ -536,6 +536,7 @@ background-size: cover;
 @media(max-width:768px) {
     .display-1 {
         font-size: 9vh;
+        padding-left: 1rem;
 
     }
   }

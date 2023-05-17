@@ -537,6 +537,8 @@ background-size: cover;
     .display-1 {
         font-size: 9vh;
         padding-left: 1rem;
+      padding-right: 1rem;;
+
 
     }
   }
@@ -663,16 +665,11 @@ background-size: cover;
   margin-left: 3rem;
   margin-right: 3rem;
 }
-@media(max-width: 580px) {
-    .faqrow {
-      margin-left: 1rem;
-      margin-right: 1rem;
-    }
-}
+
 @media(max-width:768px) {
     .faqcol2{
-      margin-left: 0.5rem;
-      margin-right: 0.5rem;
+      padding-left: 1rem;
+    padding-right: 1rem;;
     }
 }
 
@@ -819,6 +816,12 @@ background-size: cover;
     flex-direction: column;
     /* min-height: 50vh; */
 }
+
+@media(max-width:768px) {
+  .foot{
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
 
 
 

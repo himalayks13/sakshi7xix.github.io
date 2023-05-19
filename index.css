@@ -64,29 +64,6 @@ background-color: transparent !important;
 
 
 
-/* .nav-link{
-  color:white;
-    font-family: 'poppins';
-    font-size: 15px;
-    font-weight: lighter;
-    font-weight: 300;
-
-  position: relative;
-}
-
-.nav-link::after{
-
-  opacity: 0;
-
-  transition: all 0.2s;
-  position:absolute;
-  background-color: white;
-
-
-}
-.nav-link:hover::after{
-  opacity: 1;
-} */
 
 .nav1  li a,
 .nav2  li a,
@@ -259,7 +236,7 @@ height:100vh ;
 
 @media(max-width:768px) {
     .he1,.he2 {
-      padding-left: 3rem;
+      padding-left: 3rem ;
       padding-right: 8rem;
 
 
@@ -348,7 +325,7 @@ shape-outside: margin-box;
 }
 @media(max-width:768px) {
     .card-1 {
-       width: 400px;
+       width: 43vh;
 
     }
   }
@@ -919,12 +896,12 @@ footer {
   font-size: 16px;
 }
 
-@media(max-width:768px) {
+/* @media(max-width:768px) {
     .foottxt {
         padding-right: 7rem;
 
     }
-  }
+  } */
 
 .footlogos{
   height: 200px;

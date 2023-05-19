@@ -206,7 +206,7 @@ ul.dropdown-menu {
 
 }
 
-@media(max-width:768px) {
+@media(max-width:667px) {
     .hero-section {
 
 height:100vh ;
@@ -234,7 +234,7 @@ height:100vh ;
 }
 
 
-@media(max-width:768px) {
+@media(max-width:667px) {
     .he1,.he2 {
       padding-left: 3rem ;
       padding-right: 8rem;
@@ -243,7 +243,7 @@ height:100vh ;
     }
 }
 
-@media(max-width:768px) {
+@media(max-width:667px) {
     .he1 {
         font-size: 9vh;
 
@@ -288,7 +288,7 @@ background-size: cover;
 }
 
 /** For tablet devices **/
-@media (min-width: 768px) and (max-width: 1023px) {
+@media (min-width: 667px) and (max-width: 1023px) {
     .custom-shape-divider-bottom-1682713605 svg {
         width: calc(109% + 1.3px);
         height: 128px;
@@ -323,7 +323,7 @@ shape-outside: margin-box;
 
 
 }
-@media(max-width:768px) {
+@media(max-width:667px) {
     .card-1 {
        width: 43vh;
 
@@ -390,7 +390,7 @@ color: #E16D10;
 
 }
 
-/* @media(max-width:768px) {
+/* @media(max-width:667px) {
     .card-img.top{
       height: 27vh;
       width: 27vh;
@@ -505,6 +505,7 @@ background-size: cover;
 
 
 }
+/*  */
 
 
 .sec4img{
@@ -516,12 +517,19 @@ background-size: cover;
   font-size: 10vh;
   margin-left: 5rem;
   padding-right: 3rem;
+  font-family: 'poppins';
+  letter-spacing: 0.45rem;
+  color: white;
+  font-weight: 700;
+  padding-top: 3rem;
+  font-size: 7vh;
 }
 @media(max-width:768px) {
     .display-1 {
-        font-size: 9vh;
-        padding-left: 1rem;
-      padding-right: 1rem;;
+        font-size:6vh;
+        margin-left: 2rem;
+      margin-right: 3rem;
+      line-spacing:0;
 
 
     }
@@ -542,21 +550,21 @@ background-size: cover;
 
 }
 
-@media(max-width: 580px) {
+@media(max-width:768px){
+  .sec4text{
+    padding-left: 2rem;
+    padding-right:2rem;
+  }
+}
+
+/* @media(max-width: 580px) {
     .sec4text, .display-1 {
-        padding-right: 3rem;
+        padding-right: 1rem;
     }
-}
+} */
 
 
-.display-1{
-  font-family: 'poppins';
-  letter-spacing: 0.45rem;
-  color: white;
-  font-weight: 700;
-  padding-top: 3rem;
-  font-size: 7vh;
-}
+
 
 
 
@@ -650,12 +658,14 @@ background-size: cover;
   margin-right: 3rem;
 }
 
-@media(max-width:768px) {
+@media(max-width:667px) {
     .faqcol2{
       padding-left: 1rem;
     padding-right: 1rem;;
     }
 }
+
+
 
 .accordion-section .panel-default > .panel-heading {
     border: 0;
@@ -695,6 +705,7 @@ background-size: cover;
 .faqrow{
   background-color: white;
   margin-left: 0;
+  margin-right: 0;
 }
 
 /* .accordion{
@@ -728,7 +739,7 @@ background-size: cover;
   width: 58.3vh;
 }
 
-@media(max-width:768px) {
+@media(max-width:667px) {
   .faqimg{
     height:38.3vh;
     width: 38.3vh;
@@ -751,6 +762,16 @@ background-size: cover;
 
 }
 
+@media(max-width:667px) {
+  .contactimg{
+    height:48.3vh;
+   
+  }
+
+  }
+
+
+
 .section5{
   padding-top: 10.9vh;
   padding-bottom: 10.9vh;
@@ -761,7 +782,16 @@ background-size: cover;
 
 .contact{
   height: 68.3vh;
+
 }
+
+/* @media(max-width:667px) {
+  .contact{
+    height:48.3vh;
+    
+  }
+
+  } */
 
 
 .text-center{
@@ -794,58 +824,47 @@ background-size: cover;
 /* footer */
 /* ######################################################### */
 
-.foot {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    flex-direction: column;
-    /* min-height: 50vh; */
+foot {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-direction: column;
+  /* min-height: 50vh; */
 }
 
-/* @media(max-width:768px) {
-  .foot{
-    padding-left: 1rem;
-    padding-right: 1rem;
-  } */
-@media(max-width:768px) {
-    .foottxt {
-       margin-left: 1rem;
-
-    }
-  }
 
 
 footer {
-    background-color: black;
-    position: relative;
-    width: 100%;
-    min-height: 350px;
-    padding: 3rem 1rem;
-    padding-top: 0;
+  background-color: black;
+  position: relative;
+  width: 100%;
+  min-height: 350px;
+  padding: 3rem 1rem;
+  padding-top: 0;
   font-family: 'poppins';
 
 }
 
 #fcont {
-    max-width: 1140px;
-    margin-left: 100px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+  max-width: 1340px;
+  margin-left: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 #frow {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .fc {
-    min-width: 250px;
-    color: white;
-    padding: 0 2rem;
-    /* margin-right: 40px; */
+  min-width: 250px;
+  color: white;
+  padding: 0 2rem;
+  margin-right: 30px;
 }
 
 
@@ -863,59 +882,71 @@ footer {
 } */
 
 .col .logos {
-    width: 100px;
-    margin-bottom: 25px;
+  width: 100px;
+  margin-bottom: 25px;
 }
 
 .col h3 {
-    margin-bottom: 20px;
-    position: relative;
-    cursor: pointer;
+  margin-bottom: 20px;
+  position: relative;
+  cursor: pointer;
 }
 
 
 .col .links a {
-    display: block;
-    text-decoration: none;
-    color: white;
-    margin-bottom: 5px;
-    position: relative;
-    transition: 0.3s ease;
+  display: block;
+  text-decoration: none;
+  color: white;
+  margin-bottom: 5px;
+  position: relative;
+  transition: 0.3s ease;
 }
 
 .col .contact-details i {
-    margin-right: 15px;
+  margin-right: 15px;
 }
 
-.foothead1, .foothead3,.foothead4 {
+.foothead1,
+.foothead3,
+.foothead4 {
   font-weight: 600;
-  color:#E16D10;
+  color: #E16D10;
 }
 
-.foottxt{
+.foottxt {
   font-size: 16px;
 }
 
-/* @media(max-width:768px) {
-    .foottxt {
-        padding-right: 7rem;
+@media(max-width:667px) {
+  .foottxt {
+    padding-right: 7rem;
 
-    }
-  } */
+  }
+}
 
-.footlogos{
+.footlogos {
   height: 200px;
   width: 200px;
 }
 
-@media(max-width:768px) {
-    #frow {
-        flex-direction: column;
-    }
+@media(max-width:667px) {
+  #frow {
+    flex-direction: column;
+  }
 
-    .fc {
-        width: 100%;
-        text-align: left;
-        margin-bottom: 20px;
-    }
+  .fc {
+    width: 100%;
+    text-align: left;
+    margin-bottom: 20px;
+  }
+}
+
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
 }

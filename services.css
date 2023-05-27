@@ -389,7 +389,13 @@ ul.dropdown-menu {
   border: 0;
 
 }
+@media(max-width:667px) {
+  .contactimg{
+    height:48.3vh;
+   
+  }
 
+  }
 .section5 {
   padding-top: 10.9vh;
   padding-bottom: 10.9vh;

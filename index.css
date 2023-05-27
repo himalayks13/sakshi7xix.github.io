@@ -236,8 +236,8 @@ height:100vh ;
 
 @media(max-width:667px) {
     .he1,.he2 {
-      padding-left: 3rem ;
-      padding-right: 8rem;
+      padding-left: 2rem ;
+      padding-right: 3rem;
 
 
     }
@@ -245,7 +245,7 @@ height:100vh ;
 
 @media(max-width:667px) {
     .he1 {
-        font-size: 9vh;
+        font-size: 8.5vh;
 
     }
   }
@@ -302,10 +302,18 @@ background-size: cover;
   /* background-color: white; */
   /* height: 88.71vh; */
 background-color: #EBEBEB;
+padding-left: 3rem;
 
 
 
 }
+
+@media(max-width:667px) {
+    .section3 {
+       padding-left: 0rem;
+
+    }
+  }
 
 .card-1{
 border: 0;
@@ -324,8 +332,11 @@ shape-outside: margin-box;
 
 }
 @media(max-width:667px) {
-    .card-1 {
-       width: 43vh;
+    .cc {
+       /* width: 43vh; */
+       
+       padding-right: 1rem;
+       padding-left: 1rem;
 
     }
   }
@@ -346,6 +357,10 @@ shape-outside: margin-box;
   letter-spacing: 3px;
   margin-top: -0.5em;
 }
+
+
+
+
 
 .card-title{
 
@@ -526,7 +541,7 @@ background-size: cover;
 }
 @media(max-width:768px) {
     .display-1 {
-        font-size:6vh;
+        font-size:5.5vh;
         margin-left: 2rem;
       margin-right: 3rem;
       

@@ -392,6 +392,13 @@ ul.dropdown-menu {
   text-align: justify;
   color: #E16D10;
 }
+ @media(max-width:667px) {
+    .titl {
+       text-align: left;
+
+    }
+  } 
+
 
 .contentspecific{
 

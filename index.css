@@ -307,6 +307,13 @@ background-color: #EBEBEB;
 
 }
 
+@media(max-width:667px) {
+    .section3 {
+       padding-left: 1rem;
+
+    }
+  }
+
 .card-1{
 border: 0;
 shape-outside: margin-box;
@@ -323,12 +330,12 @@ shape-outside: margin-box;
 
 
 }
-@media(max-width:667px) {
+/* @media(max-width:667px) {
     .card-1 {
        width: 43vh;
 
     }
-  }
+  } */
 
 .stext{
   font-family: 'poppins';
@@ -346,6 +353,8 @@ shape-outside: margin-box;
   letter-spacing: 3px;
   margin-top: -0.5em;
 }
+
+
 
 .card-title{
 
